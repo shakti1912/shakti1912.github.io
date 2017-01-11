@@ -11,7 +11,7 @@ var name = "Shakti Singh Rathore";
   var formattedName = HTMLheaderName.replace("%data%", name);
  //$("#header").prepend(formattedName);
 
-  var role = "Software Engineering Intern";
+  var role = "Looking for Software Engineering Internship";
   var formattedRole = HTMLheaderRole.replace("%data%", role);
   $("#header").prepend(formattedRole);
     $("#header").prepend(formattedName);
